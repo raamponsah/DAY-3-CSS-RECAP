@@ -4,17 +4,30 @@
     <title>RECAP</title>
 
     <style>
-        body{
-            background-color: pink;
-        }
-        #pop{
-            color:blueviolet;
-            font-size: 50px;
-        }
+      
+      section{
+        width: 400px;
+      }
 
-        .heaven{
-            color:blue;
-        }
+      section > h4{
+        color: red;
+      }
+
+      section h4 ~ div {
+        background: purple;
+      }
+
+
+      button{
+        appearance: none;
+        outline: none;
+        border: none;
+        background:rgb(79, 79, 225);
+        color: aliceblue;
+        padding: 10px 20px;
+        border-radius: 5px;
+      }
+
 
     </style>
 
@@ -25,11 +38,39 @@
     <!-- <h1 id="maxwellTakyi" class="heading-text red"><strike>Recap Now</strike></h1>
     <h1 id="unique-heading" class="heading-text red something_else">Recap</h1>
      -->
-    <h1  class="heaven">Heavens Will Come Down</h1>
+    <!-- <h1  class="heaven"><span>Heavens</span> Will <span>Come <em><a href="">Jangle Leg</a></em></span></h1>
     <h1 class="heaven">Heavens Will Come Down</h1>
     <p class="heaven">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate expedita impedit recusandae earum culpa eligendi nisi nulla, itaque distinctio ducimus.
-    </p>
+        Lorem <span>ipsum dolor</span> sit amet consectetur adipisicing elit. Voluptate expedita impedit recusandae earum culpa eligendi nisi nulla, itaque distinctio ducimus.
+    </p> -->
+    
+    <section>
+        <h4>Nice work Developer!</h4>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate expedita impedit recusandae earum culpa eligendi nisi nulla, itaque distinctio ducimus.
+        </p>
+
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate expedita impedit recusandae earum culpa eligendi nisi nulla, itaque distinctio ducimus.
+        </p>
+
+        <div>
+           <h4>Am a hue</h4>
+        </div>
+
+        <button>Click me</button>
+    </section>
+
+
+    <section>
+        <h4>Nice work Developer!</h4>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate expedita impedit recusandae earum culpa eligendi nisi nulla, itaque distinctio ducimus.
+        </p>
+
+        <button>Click me</button>
+    </section>
+    
 
 </body>
 </html>
